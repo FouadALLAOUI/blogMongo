@@ -15,7 +15,6 @@ use Illuminate\Contracts\Auth\Authenticatable;
 
 class User extends Eloquent implements Authenticatable
 {
-    
     use AuthenticatableTrait;
     use HasApiTokens, HasFactory, Notifiable;
     
